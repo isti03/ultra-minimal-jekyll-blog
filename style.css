@@ -1,0 +1,64 @@
+/* Colors */
+
+:root {
+	--bg-color: #ffffff;
+	--bg-color-alternate: #dfeaf0;
+	--theme-color: #2b6c8f;
+	--header-color: #444444;
+	--text-color: #505050;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg-color: #34434b;
+		--bg-color-alternate: #3c4f58;
+		--theme-color: #4dc1ff;
+		--header-color: #d2dbe0;
+		--text-color: #b4c3cb;
+	}
+  }
+
+
+/* Document */
+
+html {
+	line-height: 1.5;
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Arial', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: var(--bg-color);
+	color: var(--text-color);
+  margin: auto auto;
+	width: 90%;
+	max-width: 70rem;
+}
+
+/* Headers */
+
+h1, h2, h3 { color: var(--header-color); margin: 0.25em 0 0; }
+
+h1 {
+	font-size: 2.5em;
+	color: var(--theme-color);
+}
+
+
+/* Grouping content */
+
+article { padding: 1rem 0; }
+
+header { padding: 1em 0;}
+footer { border-top: 1px solid grey; padding: 1rem 0; margin-top: 2rem; font-size: smaller;}
+
+/* Text-level elements */
+
+a {
+	background-color: transparent;
+	text-decoration: none;
+	color: var(--theme-color);
+}
+
+b, strong {	font-weight: bolder; }
