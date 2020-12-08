@@ -1,5 +1,5 @@
 site: Site title
-url: https://isti03.github.io
+url: https://isti03.github.io/ultra-minimal-jekyll-blog
 title: Site title
 description: This is the site description
 
@@ -15,7 +15,6 @@ permalink: pretty
 
 paginate: 10
 paginate_path: "page:num/"
-baseurl: "/ultra-minimal-jekyll-blog"
 
 plugins:
   - jekyll-paginate
