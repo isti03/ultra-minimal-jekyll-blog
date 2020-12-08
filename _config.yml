@@ -15,7 +15,7 @@ permalink: pretty
 
 paginate: 10
 paginate_path: "page:num/"
-baseurl: "/ultra-minimal-jekyll-blog-template"
+baseurl: "/ultra-minimal-jekyll-blog"
 
 plugins:
   - jekyll-paginate
